@@ -31,7 +31,7 @@ const soria = localfont({
 export const metadata: Metadata = {
   title: "tiger.dev",
   description: "AI Engineer",
-  icons: { icon: "./watermelon.png" },
+  icons: { icon: "./neko.png" },
 };
 
 export default function RootLayout({
