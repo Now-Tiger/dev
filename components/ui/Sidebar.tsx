@@ -1,8 +1,10 @@
 'use client';
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
+
+const resumeLink = "https://drive.google.com/file/d/1LgfQR6ajXMhFJ_ut_9uURVknKzJNPu2i/view?usp=sharing";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -40,13 +42,11 @@ const Sidebar = () => {
               </button>
               **/}
               
-              <Link href="https://drive.google.com/file/d/1LgfQR6ajXMhFJ_ut_9uURVknKzJNPu2i/view?usp=sharing">
-                <Button className="w-10 h-10 rounded-lg flex items-center justify-center text-gray-400 hover:bg-gray-100 transition-colors bg-white">
+                <Button className="w-10 h-10 rounded-lg flex items-center justify-center text-gray-400 hover:bg-gray-100 transition-colors bg-white" onClick={() => window.open(resumeLink, "_blank", "noopener,noreferrer")}>
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                   </svg>
                 </Button>
-              </Link>
               
               <button className="w-10 h-10 rounded-lg flex items-center justify-center text-gray-400 hover:bg-gray-100/50 transition-colors">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -100,13 +100,11 @@ const Sidebar = () => {
         </button>
        **/}
 
-        <Link href="https://drive.google.com/file/d/1LgfQR6ajXMhFJ_ut_9uURVknKzJNPu2i/view?usp=sharing">
-          <Button className="w-10 h-10 rounded-lg flex items-center justify-center text-gray-400 hover:bg-gray-100 transition-colors bg-white">
+          <Button className="w-10 h-10 rounded-lg flex items-center justify-center text-gray-400 hover:bg-gray-100 transition-colors bg-white" onClick={() => window.open(resumeLink, "_blank", "noopener,noreferrer")}>
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
             </svg>
           </Button>
-         </Link>
         
         <button className="w-10 h-10 rounded-lg flex items-center justify-center text-gray-400 hover:bg-gray-100 transition-colors">
           <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
