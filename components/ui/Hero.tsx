@@ -1,5 +1,9 @@
 "use client";
 
+// TODO: Replace with actual readings on the website
+const readlingListTemp = "https://github.com/Now-Tiger#:~:text=User%20Authentication%20using,on%20Serverless%20Functions"
+const linkedinProfile = "https://linkedin.com/in/now-tiger"
+
 const HeroSection = () => {
   return (
     <main className="min-h-screen flex items-center justify-center px-12 md:px-20 lg:px-32">
@@ -25,25 +29,26 @@ const HeroSection = () => {
           <span>•</span>
           <span>@Now-Tiger</span>
           <span>•</span>
-          <span>Arch btw</span>
+          <span>Music Nerd</span>
         </div>
 
         {/* CTA Buttons */}
         <div className="flex flex-wrap gap-3">
-          <button className="px-5 py-2.5 bg-gray-900 text-white rounded-md hover:bg-gray-800 transition-colors flex items-center space-x-2 text-xs font-normal">
+          <button className="px-5 py-2.5 bg-gray-900 text-white rounded-md hover:bg-gray-800 transition-colors flex items-center space-x-2 text-xs font-normal" onClick={() => window.open(readlingListTemp, "_blank", "noopener,noreferrer")}>
             <span>Read writing</span>
             <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
             </svg>
           </button>
           
-          <button className="px-5 py-2.5 bg-white text-gray-700 rounded-md hover:bg-gray-50 transition-colors border border-gray-300 text-xs font-normal">
+          <button className="px-5 py-2.5 bg-white text-gray-700 rounded-md hover:bg-gray-50 transition-colors border border-gray-300 text-xs font-normal" onClick={() => window.open(linkedinProfile, "_blank", "noopener,noreferrer")}>
             More about me
           </button>
         </div>
       </div>
 
       {/* Online Status Badge */}
+      {/**
       <div className="fixed bottom-6 right-6 flex items-center space-x-2 bg-white px-3 py-1.5 rounded-full shadow-md border border-gray-200">
         <div className="w-2 h-2 bg-emerald-700 rounded-full animate-pulse"></div>
         <svg className="w-3.5 h-3.5 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -51,6 +56,7 @@ const HeroSection = () => {
         </svg>
         <span className="text-xs font-medium text-gray-700">16</span>
       </div>
+      **/}
     </main>
   );
 };
