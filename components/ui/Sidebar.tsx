@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 
-const resumeLink = "https://drive.google.com/file/d/1LgfQR6ajXMhFJ_ut_9uURVknKzJNPu2i/view?usp=sharing";
+const resumeLink = "https://drive.google.com/file/d/1m2ddSCLCoBDePdjL7K1f9cb7DR30slPc/view?usp=sharing";
 const linkedinProfile = "https://linkedin.com/in/now-tiger"
 
 const Sidebar = () => {
