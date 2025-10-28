@@ -5,6 +5,7 @@ import BackgroundAudioPlayer from "@/components/ui/BackgroundAudioPlayer";
 import ProjectsSection from "@/components/ui/Projects";
 import TimeLine from "@/components/ui/TimeLine";
 import VisitorCount from "@/components/ui/Visitors";
+import FootNote from "@/components/ui/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <ProjectsSection />
       <TimeLine />
       <VisitorCount />
+      <FootNote />
     </div>
   );
 }
