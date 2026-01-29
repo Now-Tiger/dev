@@ -132,7 +132,7 @@ const ProjectsSection = () => {
           </div>
         </div>
       </main>
-      <hr className="border-t border-gray-300 mx-12 md:mx-20 lg:mx-80 my-12 md:my-16 lg:my-1" />
+      {/* <hr className="border-t border-gray-300 mx-50 md:mx-20 lg:mx-80 my-12 md:my-16 lg:my-1" /> */}
     </>
   );
 };
