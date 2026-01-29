@@ -10,7 +10,7 @@ const TimeLine = () => {
           {/* Work Experience Timeline */}
           <section>
             {/* Header */}
-            <div className="mb-8">
+            <div className="mb-8 mt-30">
               <p className="font-jb-mono text-emerald-500 text-xs uppercase tracking-wider mb-2 font-light">
                 The Journey
               </p>
@@ -27,9 +27,28 @@ const TimeLine = () => {
               {[
                 {
                   icon: "💼",
+                  title: "Software Engineer",
+                  org: "Social Booster Media",
+                  date: "Nov 2025 - Present",
+                  desc: "working on AI-driven automation systems where I build end-to-end solutions that replace manual workflows and significantly reduce operational overhead. Built & shipped AI-powered content and automation pipelines using Python, Playwright, LLMs (Llama 3.x), vector databases (Postgres + embeddings), and AWS, along with analytics dashboards in Next.js.",
+                  tags: [
+                    "React",
+                    "Python",
+                    "Django",
+                    "Supabase",
+                    "Playwright",
+                    "NextJS",
+                    "GCP",
+                    "Docker",
+                    "Kubernetes",
+                    "System Design",
+                  ],
+                },
+                {
+                  icon: "💼",
                   title: "Software Engineering Intern",
                   org: "Geta.ai",
-                  date: "Dec 2024 - Aug 2025",
+                  date: "Dec 2024 - Nov 2025",
                   desc: "High-performing Software Engineer, I built and shipped 10+ features optimizing core products. Delivered scalable systems for 5K+ users and cut reporting latency by 25% using Python/TypeScript while managing AWS/Kubernetes infrastructure.",
                   tags: [
                     "React",
@@ -44,7 +63,7 @@ const TimeLine = () => {
                 },
                 {
                   icon: "🎓",
-                  title: "Master of Computer Applications ( Data Science )",
+                  title: "Master of Computer Applications — Data Science",
                   org: "Symbiosis University, Pune",
                   date: "Jun 2023 May 2025",
                   desc: "Completed comprehensive machine learning course covering regression, classification, and supervised learning techniques.",
